@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+   background-color:black;
+}
+
+#dot-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+ body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+#dot-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s, transform 0.5s;
+}
